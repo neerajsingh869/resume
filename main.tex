@@ -73,24 +73,24 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-8pt}
+    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-8pt}
+    \end{tabular*}\vspace{-7pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-8pt}
+    \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-5pt}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
@@ -106,106 +106,91 @@
 \begin{document}
 
 %----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
 
 \begin{center}
     \textbf{\Huge \scshape Neeraj Kumar Singh} \\ \vspace{1pt}
-    \small 1234567890 $|$ \href{mailto:neerajsingh.iitd@gmail.com}{\underline{neerajsingh.iitd@gmail.com}} $|$ 
-    \href{https://linkedin.com/in/neeraj-kumar-singh-3b490a1b2/}{\underline{linkedin.com/in/neeraj}} $|$
-    \href{https://github.com/neerajsingh869}{\underline{github.com/neeraj}}
+    \small +91-1234567890 $|$ \href{mailto:neerajsingh.corporate@gmail.com}{\underline{neerajsingh.corporate@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/neerajsingh869/}{\underline{linkedin.com/in/neerajsingh869}} $|$
+    \href{https://github.com/neerajsingh869}{\underline{github.com/neerajsingh869}}
 \end{center}
 
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+IIT Delhi graduate and frontend developer with 2 years of experience specializing in Angular and React. Currently leading frontend development at Morgan Stanley (via Genpact).
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\textbf{Genpact} \hfill Jun 2022 - Present
+\begin{itemize}[leftmargin=0.15in]
+    \small{\item{
+    \textbf{Frontend Developer} \textit{(Morgan Stanley)} \hfill \textit{Jun 2023 - Present}
+    \begin{itemize}[leftmargin=0.15in]
+        \item Spearheaded frontend development of Political Contribution Tracking System as the sole Angular developer, quickly mastering the framework and delivering 50+ feature enhancements and bug fixes
+        \item Engineered comprehensive data export functionality in Angular Grid by implementing backend integration, enabling bulk export of 1000+ records simultaneously, improving from previous page-wise limitation of \(\sim \)20 records
+        \item Transformed legacy desktop-only application into fully responsive platform using Bootstrap and Angular Material, optimizing UI across 3 breakpoints (mobile, tablet, desktop) and reducing user complaints by 80\%
+        \item Improved mobile UX by implementing carousel-based navigation for data-intensive tables, improving data accessibility for 500+ daily users with integrated page tracking
+    \end{itemize}
+    \textit{Tech Stack: Angular, TypeScript, Angular Material, Bootstrap, Angular Grid, REST APIs}
+    }}
+    
+    \small{\item{
+    \textbf{Frontend Developer} \textit{(Jefferies)} \hfill \textit{Jun 2022 - May 2023}
+    \begin{itemize}[leftmargin=0.15in]
+        \item Collaborated in a 10-member team to maintain and enhance Global Client Onboarding Platform for KYC processes
+        \item Developed Additional Sanctions Screening interface with advanced search functionality and dynamic result display
+        \item Enhanced reporting system by synchronizing client, request, and PDF reports with main KYC form updates
+        \item Resolved critical bugs in complex KYC forms and reports, improving system reliability and user experience
+    \end{itemize}
+    \textit{Tech Stack: JavaScript, HTML, CSS, SQL}
+    }}
+\end{itemize}
+
+%-----------PROJECTS-----------
+\section{Personal Projects}
+\begin{itemize}[leftmargin=0.15in]
+    \small{\item{
+    \textbf{Foodie.com} - Full Stack Food Delivery Platform \hfill [\href{https://github.com/neerajsingh869/foody-frontend}{GitHub}] [\href{https://foody-frontend-27vz.onrender.com/}{Live Demo}]
+    \begin{itemize}[leftmargin=0.15in]
+        \item Engineered a comprehensive food delivery platform with features including restaurant management, menu customization, and real-time order tracking
+        \item Implemented secure payment processing using Stripe, user authentication with Auth0, and cloud-based image management via Cloudinary
+        \item Developed robust order management system with status updates and built responsive UI for multiple screens
+    \end{itemize}
+    \textit{Tech Stack: React.js, Node.js, Express.js, MongoDB, Auth0, Stripe API, Cloudinary, REST APIs}
+    }}
+    
+    \small{\item{
+    \textbf{BuyBusy} - E-commerce Web Application \hfill [\href{https://github.com/neerajsingh869/BuyBusy}{GitHub}] [\href{https://buybusy869.netlify.app/}{Live Demo}]
+    \begin{itemize}[leftmargin=0.15in]
+        \item Built a feature-rich e-commerce platform with product filtering, search functionality, and cart management system
+        \item Implemented state management using Redux Toolkit and user authentication with Firebase
+        \item Developed responsive UI using Tailwind CSS with dark mode support and interactive notifications
+    \end{itemize}
+    \textit{Tech Stack: React.js, Redux Toolkit, Firebase, Tailwind CSS, REST APIs}
+    }}
+\end{itemize}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Languages}{: HTML, CSS, JavaScript, TypeScript, Java} \\
+    \textbf{Frontend}{: Angular, React, Redux, Redux toolkit, Tailwind CSS, Material UI, Bootstrap} \\
+    \textbf{Backend \& Tools}{: Node.js, Express.js, MongoDB, Git, VS Code, npm, Data Structures \& Algorithms}
+    }}
+\end{itemize}
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {Indian Institute of Technology}{Delhi, India}
-      {Bachelor of Technology in Mechanical Engineering~~~~~~~~~CGPA 7.93}{Aug, 2018 -- Jul, 2022}
-    \resumeSubheading
-      {Central Hindu Boys School}{Varanasi, India}
-      {Higher Secondary Education~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Marks 90.6\%}{Jul, 2015 -- May, 2017}
-    \resumeSubheading
-      {Raj English School}{Varanasi, India}
-       {Secondary Education~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CGPA 9}{Jun, 2014 -- Jul, 2015}
+      {Bachelor of Technology in Mechanical Engineering}{Aug, 2018 -- Jul, 2022}
   \resumeSubHeadingListEnd
 
-
-%-----------Scholastic Achievements-----------
-\section{Scholastic Achievements}
-  \resumeItemListStart
-      \resumeItem {Secured \textbf{All India Rank 419 (OBC)} among \textbf{1.5 million} candidates in JEE Advanced Exam in 2018}
-      \vspace{-5pt}
-      \resumeItem {Secured \textbf{All India Rank 29} in FIITJEE Talent Reward Examination (FTRE) conducted by FIITJEE in 2017}
-      \vspace{-5pt}
-      \resumeItem {Conferred scholarship on qualifying \textbf{UP Science Talent Search Examination} in 2017}
-      \vspace{-5pt}
-      \resumeItem {Won \textbf{Governor Award} in Scouts and Guides on excellent performance in \textbf{5 days camp} in 2012}
-      \vspace{-5pt}
-  \resumeItemListEnd
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{WhatsApp Chat Analyzer with Heroku deployment} $|$ \emph{Side Project}}{Jun, 2021 - Aug, 2021}
-          \resumeItemListStart
-            \resumeItem{Built WhatsApp Chat Analyzer to \textbf{analyze} chats with the help of useful \textbf{statistics} and engaging \textbf{charts}}
-            \resumeItem{Converted WhatsApp chat data into dataframe using \textbf{pandas} and \textbf{regular expression} libraries}
-            \resumeItem{Used \textbf{urlextract}, \textbf{wordcloud}, \textbf{collections}, and \textbf{emoji} libraries to answer some questions on the dataset}
-            \resumeItem{Constructed Stopwords for \textbf{hinglish} language and used it to remove irrelevant/unnecessary words from the data}
-            \resumeItem{Used \textbf{Streamlit} library to create website, and \textbf{Heroku} platform to deploy the project}
-          \resumeItemListEnd
-          
-          
-      \resumeProjectHeading
-          {\textbf{Laptop Price Predictor with AWS EC2 deployment} $|$ \emph{Side Project }}{Jun, 2021 - Jul, 2021}
-          \resumeItemListStart
-            \resumeItem{Built a \textbf{end to end} laptop price predictor that predicts the laptop's price on the basis of given configurations}
-            \resumeItem{Did EDA using \textbf{numpy}, \textbf{pandas}, \textbf{matplotlib} and \textbf{seaborn} libraries after cleaning the dataset}
-            \resumeItem{Used \textbf{log transformation} to reduce the skewness in the target feature for better results}
-            \resumeItem{Got R2 score of \textbf{87\%} and MAE of \textbf{0.17} on the test dataset using \textbf{Random Forest} model in \textbf{Sklearn} library}
-            \resumeItem{Used \textbf{Streamlit} library to create website, and \textbf{AWS EC2} instance to deploy the project}
-          \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{ Content Based Movie Recommender System with Heroku deployment} $|$ \emph{Side Project }}{Apr, 2021 - Jun, 2021}
-        \resumeItemListStart
-            \resumeItem{Built \textbf{end to end} movie recommender system that recommends 5 most similar movies}
-            \resumeItem{Used \textbf{Stemming}, \textbf{Stopwords} and \textbf{TFIDF} utilities from \textbf{NLTK} and \textbf{Sklearn} libraries}
-            \resumeItem{Used \textbf{cosine distance} to find the similarity score between all pairs of movies}
-            \resumeItem{Used \textbf{Streamlit} library to create website, \textbf{TMDB} API to fetch movie posters and \textbf{Heroku} to deploy project}
-        \resumeItemListEnd
-      \resumeProjectHeading
-        {\textbf{ Diagnosing Parkinson Disease using MLP and SVM} $|$ \emph{Prof. Souvik Chakraborty}}{Mar, 2021 - Apr, 2021}
-        \resumeItemListStart
-            \resumeItem{Developed a \textbf{Decision Support System} to aid the Specialist in diagnosing of Parkinson Disease}
-            \resumeItem{ Balanced the dataset using \textbf{SMOTE} technique and reduced dimensionality using \textbf{PCA} technique}
-            \resumeItem{Used \textbf{Sklearn} library for deploying \textbf{MLP} and \textbf{SVM} classifers on the Parkinson dataset}
-            \resumeItem{Got \textbf{98\%} accuracy and \textbf{0.95} F1 score after Hyperparameter tuning and model selection}
-        \resumeItemListEnd
-        
-    \resumeSubHeadingListEnd
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Programming Languages}{: C++, Python, Java, SQL (MySQL)}  \textbf{~~~~~~~~~~~~~~~~~~~~~~Cloud}{: Heroku, AWS (EC2 instance)}\\
-     \textbf{Data Science}{: Python libraries, Machine Learning (Sklearn), Deep Learning (TensorFlow and Keras)}\\
-     \textbf{Software \& Tools}{: HTML, CSS, Git, LaTex, Anaconda, Jupyter, Streamlit, PyCharm, Google Colab, Visual Studio} \\
-    }}
- \end{itemize}
-
-%-----------POSITION OF RESPONSIBILITY-----------
-\section{Position Of Responsibility}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Nucleus Coordinator, Ofce of Career Services} $|$ \emph{IIT Delhi}}{Jun, 2020 - Apr, 2021}
-          \resumeItemListStart
-            \resumeItem{Appointed after a \textbf{3 Stage} selection process with \textbf{300+} applicants}
-            \resumeItem{Responsible to pitch and bring department wise companies in the campus for training and placement session}
-            \resumeItem{Working in tandem with \textbf{500+ recruiters} for campus recruitment of \textbf{1000+ students} in a \textbf{40 membered team}}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
